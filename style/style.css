@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-link{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;
+}
+.list{
+    display: inline-block;
+    padding: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    font-family: Vegan Style Personal Use;
+    color: #FF4C13;
+    font-size: 40px;
+}
+#container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#contenedor-2{
+    width: 80%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+#contendor-1{
+    width: 20%;
+    padding-right: 40px;
+    flex-shrink: 1;
+    box-sizing: border-box;
+}
+.img-big{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+.img-small{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+@media (max-width: 360px) {
+    #nav-link{ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        list-style: none;
+        margin-top: 25px;
+    }
+    #contenedor-2{
+        padding-right: 0;
+        width: 100%;
+    }
+    #contenedor-1{
+        display: none;
+    }
+    .img-small{
+        display: none;
+    }
+}
