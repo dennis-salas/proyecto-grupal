@@ -52,6 +52,34 @@
     object-fit: cover;
     padding-bottom: 20px;
 }
+h1{
+    text-align: center;
+}
+#imagenes-opcion{
+    display: flex;
+    flex-direction: row;
+}
+#contenedor-1-opcion{
+    width: 30%;
+    padding: 20px;
+}
+#imagen-1{
+    width: 100%;
+}
+#contenedor-2-opcion{
+    width: 30%;
+    padding: 20px;
+}
+#imagen-2{
+    width: 100%;
+}
+#contenedor-3-opcion{
+    width: 30%;
+    padding: 20px;
+}
+#imagen-3{
+    width: 100%;
+}
 @media (max-width: 360px) {
     #nav-link{ 
         display: flex;
